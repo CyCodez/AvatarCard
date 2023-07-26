@@ -1,0 +1,77 @@
+body {
+  background-color: #ccc;
+}
+.avatardiv {
+  background-color: white;
+  width: 30%;
+  height: 110px;
+  border-radius: 5px;
+  padding: 55px;
+  margin: 15% auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.subdiv {
+  margin-left: -30px;
+  margin-top: -50px;
+  width: 100%;
+}
+.subdiv b {
+  margin: 10px;
+}
+.docImg {
+  width: 90px;
+  height: 40px;
+  margin-right: 10px;
+}
+textarea {
+  background-color: aliceblue;
+}
+button:hover {
+  background-color: grey;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-top: 4px;
+  margin-right: 5px;
+  border: 1px solid grey;
+  background-color: aliceblue;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+.markdiv {
+  display: flex;
+  margin-top: 10px;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: aliceblue;
+  color: #fff;
+  color: black;
+  text-align: center;
+  border-radius: 3px;
+  padding: 1px 0;
+  word-wrap: normal;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
