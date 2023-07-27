@@ -12,7 +12,7 @@ const AvatarCard = () => {
         <div style={{ display: "flex", flexDirection: "row" }}>
           <img className="docImg" src={doctor} alt="doc" />
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <textarea rows="6" cols="60" placeholder="Type your message" />
+            <textarea className="textareadiv" placeholder="Type your message" />
             <div
               style={{
                 display: "flex",
