@@ -80,6 +80,7 @@ button:hover {
   .avatardiv {
     background-color: white;
     width: 100%;
+    max-width: fit-content;
     height: 110px;
     border-radius: 5px;
     padding: 55px;
@@ -88,6 +89,7 @@ button:hover {
   }
   button {
     margin-left: 28px;
+    padding: 5px;
   }
   /* textarea {
     row-gap: 2px;
