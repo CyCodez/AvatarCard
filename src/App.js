@@ -29,20 +29,11 @@ const AvatarCard = () => {
                   </div>
                   <div>
                     {" "}
-                    <label for="HTML">someHTML is okay</label>
+                    <label for="HTML">Some HTML is okay</label>
                   </div>
                 </div>
               </div>
-              <button
-                style={{
-                  marginTop: "15px",
-                  padding: "4px 9px",
-                  borderRadius: "5px",
-                  border: "1px solid grey",
-                }}
-              >
-                post a comment
-              </button>
+              <button>post a comment</button>
             </div>
           </div>
         </div>
