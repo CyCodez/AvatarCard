@@ -114,14 +114,15 @@ button {
   } */
   button {
     margin-top: 15px;
-    margin-left: 55px;
-    padding: 3px;
+    margin-right: 35px;
+    padding: 1px 1px;
     border-radius: 5px;
     border: 1px solid grey;
   }
   .textareadiv {
     width: 300px;
     height: 100px;
+    margin-right: 40px;
   }
   label {
     white-space: nowrap;
