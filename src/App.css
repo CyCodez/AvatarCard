@@ -7,8 +7,10 @@ body {
   background-color: #ccc;
 }
 .avatardiv {
+  width: 80%;
+  max-width: 600px;
   background-color: white;
-  width: 30%;
+
   height: 110px;
   border-radius: 5px;
   padding: 70px;
@@ -19,6 +21,7 @@ body {
   margin-left: -50px;
   margin-top: -50px;
   width: 100%;
+  max-width: 100%;
 }
 .subdiv b {
   margin: 10px;
@@ -32,6 +35,8 @@ textarea {
   background-color: aliceblue;
   border-style: none;
   max-width: 200%;
+  width: 100%;
+  box-sizing: border-box; /* This ensures that the padding and border are included in the width calculation */
 }
 button {
   margin-top: 15px;
