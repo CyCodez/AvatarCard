@@ -11,7 +11,13 @@ const AvatarCard = () => {
         <b>Add A New Comment</b>
         <div style={{ display: "flex", flexDirection: "row" }}>
           <img className="docImg" src={doctor} alt="doc" />
-          <div style={{ display: "flex", flexDirection: "column" }}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              maxWidth: "600px",
+            }}
+          >
             <textarea className="textareadiv" placeholder="Type your message" />
             <div
               style={{

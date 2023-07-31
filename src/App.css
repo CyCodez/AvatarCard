@@ -7,7 +7,7 @@ body {
   background-color: #ccc;
 }
 .avatardiv {
-  width: 80%;
+  width: 700px;
   max-width: 600px;
   background-color: white;
 
@@ -18,7 +18,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .subdiv {
-  margin-left: -50px;
+  margin-left: -200px;
   margin-top: -50px;
   width: 100%;
   max-width: 100%;
@@ -27,16 +27,17 @@ body {
   margin: 10px;
 }
 .docImg {
-  width: 80px;
-  height: 30px;
-  margin-right: 10px;
+  width: 50%;
+  height: 50px;
+  object-fit: contain;
+  margin-right: -108px;
 }
 textarea {
   background-color: aliceblue;
   border-style: none;
   max-width: 200%;
   width: 100%;
-  box-sizing: border-box; /* This ensures that the padding and border are included in the width calculation */
+  box-sizing: border-box;
 }
 button {
   margin-top: 15px;
@@ -95,11 +96,12 @@ button:hover {
   visibility: visible;
 }
 .textareadiv {
-  width: 500px;
+  width: 300%;
   height: 100px;
+  margin-right: 40px;
 }
 button {
-  margin-left: 55px;
+  margin-left: 150px;
   padding: 5px;
 }
 @media screen and (max-width: 650px) {
@@ -125,7 +127,7 @@ button {
     border: 1px solid grey;
   }
   .textareadiv {
-    width: 250px;
+    width: 550px;
     height: 100px;
     margin-right: 2px;
   }
